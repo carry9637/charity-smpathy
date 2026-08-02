@@ -1,0 +1,32 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cgi-bin/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /?s=
+Disallow: /search/
+Disallow: /trackback/
+Disallow: /*/feed/
+Disallow: /*?replytocom
+Disallow: /*.php$
+Disallow: /tag/
+Disallow: /author/
+
+# WooCommerce Specific
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /addons/
+Disallow: /wishlist/
+Disallow: /?add-to-cart=
+Disallow: */add-to-cart/*
+Disallow: /product-tag/
+Disallow: /product-category/
+Disallow: */?orderby=
+
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://eroscon.com/sitemap_index.xml
