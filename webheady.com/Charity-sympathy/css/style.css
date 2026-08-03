@@ -2585,7 +2585,7 @@ Project styles
   transition: .5s ease;
 }
 /*contact-service*/
-
+/* 
 .service-contact {
   background: #ff2e3d;
   padding: 30px;
@@ -2610,7 +2610,7 @@ Project styles
   color: #ff2e3d;
 }
 /*============================= Sidebar Style One ==================*/
-
+/* 
 .sidebar_styleOne .theme_title,.sidebar_styleTwo .theme_title{
   padding-bottom: 18px;
 }
@@ -2625,7 +2625,7 @@ Project styles
   border: 1px solid #c9c9c9;
   padding: 0 56px 0 12px;
   color:#9e9e9e;
-}
+} */
 
 .sidebar_categories {
   margin-top:60px;
@@ -2857,6 +2857,7 @@ Project styles
 =============================================
 */
 
+/* KEEP: Pagination still depends on legacy static CSS */
 .page_pagination{
   text-align: center;
   margin-top: 112px;
@@ -3000,7 +3001,9 @@ Project styles
   color: #a2a2a2;
   margin-left: 10px;
 }
-.product-content-box .content-box .review-box {
+
+/* DISABLED: Tailwind migrated - Product Review Stars
+/* .product-content-box .content-box .review-box {
   margin: 0 0 10px;  
 }
 .product-content-box .content-box .review-box ul li {
@@ -3014,7 +3017,7 @@ Project styles
 .product-content-box .content-box .review-box ul li i {
   color: #ff2e3d;
   font-size: 14px;
-}
+} */
 
 .product-content-box .content-box span.price {
   color: #252525;
@@ -3611,7 +3614,6 @@ Project styles
     position: relative;
     top: 18px;  
 }
-
 .two-column .accordion .acc-btn {
     cursor: pointer;
     font-size: 18px;
@@ -3951,8 +3953,8 @@ Project styles
   20. contact_details
 =================================================
 */
-
-.contact_details {
+/* disabale for talwind */
+/* .contact_details {
   padding:100px 0px 50px;
 }
 .contact_details .item {
@@ -3988,7 +3990,7 @@ Project styles
   position: relative;
   font-size: 20px;
     margin: 30px 0 10px;
-}
+} */
 
 /*
 =====================================================
@@ -5406,12 +5408,12 @@ Project styles
   31. our-gallery
 ================================================
 */
-.our-gallery{
+/* .our-gallery{
   padding:90px 0px 20px;
 }
 .our-gallery .single-item{
   margin-bottom:30px;
-}
+} */
 .our-gallery .single-item .img-holder {
     display: block;
     overflow: hidden;
@@ -5606,7 +5608,8 @@ Project styles
   33. error page
 ===============================================
 */
-.error-page{
+/* diable talwind migrate  */
+/* .error-page{
   padding:100px 0px 100px;
 }
 .error-page .inner-box{
@@ -5619,7 +5622,7 @@ Project styles
 }
 .error-page .inner-box .image-box{
   margin:50px 0px 50px;
-}
+} */
 
 
 /*
@@ -5724,7 +5727,9 @@ Project styles
   36. our-history
 =================================================
 */
-.our-history{}
+/* DISABLED: Tailwind migrated - History Timeline
+
+/* .our-history{}
 .our-history .item-box{}
 .our-history .item-box .item{
   text-align:center;
@@ -5764,7 +5769,7 @@ Project styles
 }
 .our-history .item-box .item .content-box p{
   margin-top:15px;
-}
+} */
 
 /*
 ==================================================
